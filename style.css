@@ -1,0 +1,158 @@
+.banner {
+  background: url("img/WhatsApp\ Image\ 2025-08-21\ at\ 11.26.45\ \(1\).jpeg") no-repeat center center;
+  background-size: cover;
+  height: 100vh; /* supaya full layar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+
+}
+
+
+
+.lingkaran {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: #fff; /* background putih biar netral */
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.lingkaran img {
+  width: 110px;   /* atur ukuran logo biar proporsional */
+  height: auto;
+}
+
+
+/* Style untuk card berita */
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 25px;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Gambar dalam card */
+.card img {
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Judul berita */
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-top: 10px;
+}
+
+/* Isi berita */
+.card-text {
+  font-size: 0.9rem;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+/* Bagian tombol/aksi */
+.card a {
+  color: #0ea5e9;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.card a:hover {
+  color: #0284c7;
+}
+
+/* Atur body supaya background tetap */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, rgba(161, 196, 253, 0.9), rgba(194, 233, 251, 0.9));
+  background-attachment: fixed;   /* biar ga geser pas scroll */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Card & section biar transparan lembut */
+.section-box {
+  background: rgba(255, 255, 255, 0.75); /* putih transparan */
+  backdrop-filter: blur(10px);           /* efek kaca / glassmorphism */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+
+body {
+  background-color: #f3f4f6; /* abu-abu lembut */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card transparan aesthetic */
+.section-box {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+}
+
+
+body {
+  background-color: #f3f4f6; /* abu abu soft */
+  font-family: "Segoe UI", sans-serif;
+}
+
+.section-wrapper {
+  padding: 80px 20px;
+}
+
+/* Card Visi */
+.visi-card {
+  background: #7daaff; /* biru */
+  color: #fff;
+  border-radius: 16px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.visi-card h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Card Misi */
+.misi-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.misi-card h4 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.misi-card ol {
+  padding-left: 20px;
+  line-height: 1.8;
+}
