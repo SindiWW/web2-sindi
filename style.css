@@ -1,16 +1,21 @@
 .banner {
-  background: url("img/WhatsApp\ Image\ 2025-08-21\ at\ 11.26.45\ \(1\).jpeg") no-repeat center center;
+  background: url("img/bg.png") no-repeat center center;
   background-size: cover;
-  height: 100vh; /* supaya full layar */
+  height: 98vh; /* supaya full layar */
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-
 }
+    
 
-
+ .prestasi-img {
+    height: 180px; /* lebih pendek biar seimbang */
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
 
 .lingkaran {
   display: flex;
@@ -81,42 +86,16 @@
 }
 
 /* Atur body supaya background tetap */
-body {
+ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, rgba(161, 196, 253, 0.9), rgba(194, 233, 251, 0.9));
-  background-attachment: fixed;   /* biar ga geser pas scroll */
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #1f2937;
 }
 
-/* Card & section biar transparan lembut */
-.section-box {
-  background: rgba(255, 255, 255, 0.75); /* putih transparan */
-  backdrop-filter: blur(10px);           /* efek kaca / glassmorphism */
-  border-radius: 20px;
-  padding: 20px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-}
-
-
-body {
-  background-color: #f3f4f6; /* abu-abu lembut */
-  font-family: 'Poppins', sans-serif;
-}
-
-/* Card transparan aesthetic */
-.section-box {
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 12px;
-  backdrop-filter: blur(6px);
-}
-
-
-body {
-  background-color: #f3f4f6; /* abu abu soft */
-  font-family: "Segoe UI", sans-serif;
-}
 
 .section-wrapper {
   padding: 80px 20px;
@@ -156,3 +135,160 @@ body {
   padding-left: 20px;
   line-height: 1.8;
 }
+
+ .guru-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #63acff;
+    transition: transform 0.3s;
+  }
+
+  .guru-img:hover {
+    transform: scale(1.05);
+  }
+   /* Navbar Custom Aesthetic */
+  .custom-navbar {
+    background: linear-gradient(90deg, #2563eb, #1e3a8a); /* biru terang → biru navy */
+  }
+
+  .custom-navbar .nav-link:hover {
+    color: #93c5fd !important; /* biru muda pas hover */
+  }
+
+  .custom-navbar .dropdown-menu {
+    background-color: #1e3a8a; 
+  }
+
+  .custom-navbar .dropdown-item {
+    color: white;
+  }
+
+  .custom-navbar .dropdown-item:hover {
+    background-color: #2563eb;
+    color: #fff;
+  }
+
+  .custom-blue {
+  background-color: #e0f2fe; /* biru muda soft */
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.2); /* shadow biru */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-blue:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.3); /* lebih tegas pas hover */
+}
+
+.info-box {
+    background: #93c5fd; /* biru tua */
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .info-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .info-box i {
+    color: #facc15; /* kuning ikon */
+  }
+
+  .counter {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .ekskul-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
+.ekskul-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  border-radius: 2px;
+  background: #2563eb; /* biru aksen */
+}
+
+.info-container {
+  max-width: 800px; /* biar rapih, bisa kamu kecilin jadi 800px */
+  margin: auto;
+}
+
+.info-box {
+  background-color: #93c5fd; /* biru soft */
+  color: white;
+  transition: 0.3s;
+  padding: 20px;
+  text-align: center;
+}
+
+.info-box i {
+  font-size: 30px;
+  color: #ffffff; /* kuning */
+}
+
+.info-box h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.info-box p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  position: absolute;   /* bukan fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;  /* transparan nempel ke gambar */
+  z-index: 1000;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3f4f6;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.card img {
+  object-fit: contain;
+}
+
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
