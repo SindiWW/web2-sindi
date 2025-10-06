@@ -11,7 +11,7 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    
-    <title>Berita</title>
+    <title>Jurusan</title>
      <link rel="stylesheet" href="style.css">
      <style>
       body {
@@ -63,87 +63,64 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
         <li class="nav-item">
           <a class="nav-link text-drak" href="galeri.php">Galeri</a>
         </li>
-         <li class="nav-item">
-          <a class="nav-link text-dark" href="#kontak">Kontak Kami</a>
-        </li>
       </ul>
-
       </div>
     </div>
   </div>
 </nav>
-<!-- Jurusan -->
+
+
+<!-- JURUSAN -->
 <div class="container-fluid pt-5 pb-5" style="background-color:#f9fafb;">
   <div class="container">
     <h2 class="fw-bold mb-4 text-center">Konsentrasi <span style="color:#2563eb;">Keahlian</span></h2>
 
-    <!-- TKJ -->
-    <div class="card mb-4 shadow-sm border-0 rounded-3">
-      <div class="card-body d-flex align-items-center">
-        <img src="img/tjkt.XeO8V4_I.png" alt="TKJ" class="me-4" style="width:80px; height:auto;">
-        <div>
-          <h5 class="fw-bold">Teknik Komputer dan Jaringan (TKJ)</h5>
-          <p class="mb-0 text-muted">
-            Konsentrasi ini fokus pada perancangan, pengelolaan, dan pemeliharaan jaringan komputer serta teknologi telekomunikasi. 
-            Siswa dilatih untuk menguasai teknik instalasi jaringan, administrasi server, dan troubleshooting perangkat jaringan.
-          </p>
-        </div>
-      </div>
-    </div>
+    <?php
+    // Data jurusan bisa kamu ambil dari database nanti, untuk sekarang pakai array
+    $jurusan = [
+      [
+        "img" => "img/tjkt.XeO8V4_I.png",
+        "nama" => "Teknik Komputer dan Jaringan (TKJ)",
+        "deskripsi" => "Konsentrasi ini fokus pada perancangan, pengelolaan, dan pemeliharaan jaringan komputer serta teknologi telekomunikasi. 
+                        Siswa dilatih untuk menguasai teknik instalasi jaringan, administrasi server, dan troubleshooting perangkat jaringan."
+      ],
+      [
+        "img" => "img/rpl.png",
+        "nama" => "Pengembangan Perangkat Lunak dan Gim (PPLG)",
+        "deskripsi" => "Bidang ini mempersiapkan siswa untuk merancang, mengembangkan, dan mengelola perangkat lunak dan gim. 
+                        Siswa akan belajar bahasa pemrograman, pengembangan aplikasi, desain gim, serta pengelolaan proyek teknologi."
+      ],
+      [
+        "img" => "img/tbsm.5YZNeyvV.png",
+        "nama" => "Teknik Sepeda Motor (TSM)",
+        "deskripsi" => "Konsentrasi ini mengajarkan keterampilan teknis dalam perbaikan, perawatan, dan modifikasi sepeda motor, 
+                        serta pengetahuan bisnis dan kewirausahaan di bidang otomotif roda dua."
+      ],
+      [
+        "img" => "img/dkv.Btdc-HP2.png",
+        "nama" => "Desain Komunikasi Visual (DKV)",
+        "deskripsi" => "Bidang ini berfokus pada pengembangan kemampuan kreatif dalam desain grafis, ilustrasi, animasi, dan media komunikasi visual untuk berbagai kebutuhan industri kreatif."
+      ],
+      [
+        "img" => "img/toi.BFD6ZBmB.png",
+        "nama" => "Teknik Otomasi Industri (TOI)",
+        "deskripsi" => "Konsentrasi ini mendalami teknologi otomasi di industri, meliputi pemrograman PLC, robotika, dan sistem kontrol otomatis untuk meningkatkan efisiensi dan produktivitas di sektor manufaktur."
+      ]
+    ];
 
-    <!-- PPLG -->
-    <div class="card mb-4 shadow-sm border-0 rounded-3">
-      <div class="card-body d-flex align-items-center">
-        <img src="img/rpl.png" alt="PPLG" class="me-4" style="width:80px; height:auto;">
-        <div>
-          <h5 class="fw-bold">Pengembangan Perangkat Lunak dan Gim (PPLG)</h5>
-          <p class="mb-0 text-muted">
-            Bidang ini mempersiapkan siswa untuk merancang, mengembangkan, dan mengelola perangkat lunak dan gim. 
-            Siswa akan belajar bahasa pemrograman, pengembangan aplikasi, desain gim, serta pengelolaan proyek teknologi.
-          </p>
+    // Loop untuk menampilkan setiap jurusan
+    foreach ($jurusan as $j) :
+    ?>
+      <div class="card mb-4 shadow-sm border-0 rounded-3">
+        <div class="card-body d-flex align-items-center">
+          <img src="<?= $j['img']; ?>" alt="<?= $j['nama']; ?>" class="me-4" style="width:80px; height:auto;">
+          <div>
+            <h5 class="fw-bold"><?= $j['nama']; ?></h5>
+            <p class="mb-0 text-muted"><?= $j['deskripsi']; ?></p>
+          </div>
         </div>
       </div>
-    </div>
-
-    <!-- TSM -->
-    <div class="card mb-4 shadow-sm border-0 rounded-3">
-      <div class="card-body d-flex align-items-center">
-        <img src="img/tbsm.5YZNeyvV.png" alt="TSM" class="me-4" style="width:80px; height:auto;">
-        <div>
-          <h5 class="fw-bold">Teknik Sepeda Motor (TSM)</h5>
-          <p class="mb-0 text-muted">
-            Konsentrasi ini mengajarkan keterampilan teknis dalam perbaikan, perawatan, dan modifikasi sepeda motor, 
-            serta pengetahuan bisnis dan kewirausahaan di bidang otomotif roda dua.
-          </p>
-        </div>
-      </div>
-    </div>
-
-     <!-- DKV -->
-    <div class="card mb-4 shadow-sm border-0 rounded-3">
-      <div class="card-body d-flex align-items-center">
-        <img src="img/dkv.Btdc-HP2.png" alt="TSM" class="me-4" style="width:80px; height:auto;">
-        <div>
-          <h5 class="fw-bold">Desain Komunikasi Visual(DKV)</h5>
-          <p class="mb-0 text-muted">
-            Bidang ini berfokus pada pengembangan kemampuan kreatif dalam desain grafis, ilustrasi, animasi, dan media komunikasi visual untuk berbagai kebutuhan industri kreatif.
-          </p>
-        </div>
-      </div>
-    </div>
-
-     <!-- Toi -->
-    <div class="card mb-4 shadow-sm border-0 rounded-3">
-      <div class="card-body d-flex align-items-center">
-        <img src="img/toi.BFD6ZBmB.png" alt="TSM" class="me-4" style="width:80px; height:auto;">
-        <div>
-          <h5 class="fw-bold">Teknik Otomasi Industri (TOI)</h5>
-          <p class="mb-0 text-muted">
-            Konsentrasi ini mendalami teknologi otomasi di industri, meliputi pemrograman PLC, robotika, dan sistem kontrol otomatis untuk meningkatkan efisiensi dan produktivitas di sektor manufaktur.
-          </p>
-        </div>
-      </div>
-    </div>
+    <?php endforeach; ?>
 
   </div>
 </div>

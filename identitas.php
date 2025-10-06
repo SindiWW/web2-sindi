@@ -11,7 +11,7 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    
-    <title>Berita</title>
+    <title>Identitas</title>
      <link rel="stylesheet" href="style.css">
      <style>
       body {
@@ -28,8 +28,6 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
       <img src="img/logo.png" alt="Logo SMKN 4 Tasikmalaya" width="40" height="40" class="me-2">
       <span class="fw-bold">SMKN 4 Tasikmalaya</span>
     </a>
-    
-
     <div class="d-flex justify-content-end">
     <a class="navbar-brand" href="index.php">Beranda</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,9 +61,6 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
         <li class="nav-item">
           <a class="nav-link text-drak" href="galeri.php">Galeri</a>
         </li>
-         <li class="nav-item">
-          <a class="nav-link text-dark" href="#kontak">Kontak Kami</a>
-        </li>
       </ul>
 
       </div>
@@ -73,66 +68,65 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
   </div>
 </nav>
 
-
- <div class="container py-5">
-    <div class="text-center mb-4">
-      <h3 class="fw-bold">IDENTITAS<span class="text-primary">SEKOLAH</span></h3>
-      <img src="img/LOGO.png" alt="Logo Sekolah" class="img-fluid my-3" style="max-height:120px;">
-    </div>
-
-    <div class="card shadow section-box p-4">
-      <table class="table table-borderless mb-0">
-        <tbody>
-          <tr>
-            <td class="fw-bold">Nama Sekolah</td>
-            <td>:</td>
-            <td>SMKN 4 TASIKMALAYA</td>
-          </tr>
-          <tr>
-            <td class="fw-bold">NPSN</td>
-            <td>:</td>
-            <td>20276063</td>
-          </tr>
-          <tr>
-            <td class="fw-bold">Alamat</td>
-            <td>:</td>
-            <td>Jl Depok RT 02 RW 05, Kelurahan Sukamenak, Kecamatan Purbaratu,
-            Kota Tasikmalaya, Provinsi Jawabarat</td>
-          </tr>
-          <tr>
-            <td class="fw-bold">Telp/Faks</td>
-            <td>:</td>
-            <td>(0265) 7528981</td>
-          </tr>
-          <tr>
-            <td class="fw-bold">Email</td>
-            <td>:</td>
-            <td>info@smkn4-tsm.sch.id</td>
-          </tr>
-          <tr>
-            <td class="fw-bold">Tahun Berdiri/Beroperasi</td>
-            <td>:</td>
-            <td>2010</td>
-          </tr>
-          <tr>
-            <td class="fw-bold">Nomor SK Pendirian</td>
-            <td>:</td>
-            <td>420/9/SK-BPPT/2012</td>
-          </tr>
-          <tr>
-            <td class="fw-bold">Tanggal SK Pendirian</td>
-            <td>:</td>
-            <td>06 Februari 2012</td>
-          </tr>
-          <tr>
-            <td class="fw-bold">Kepemilikan</td>
-            <td>:</td>
-            <td>Pemerintah Daerah</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+<div class="container py-5">
+  <div class="text-center mb-4">
+    <h3 class="fw-bold">IDENTITAS <span class="text-primary">SEKOLAH</span></h3>
+    <img src="img/LOGO.png" alt="Logo Sekolah" class="img-fluid my-3" style="max-height:120px;">
   </div>
+
+  <div class="card shadow section-box p-4">
+    <table class="table table-borderless mb-0">
+      <tbody>
+        <tr>
+          <td class="fw-bold">Nama Sekolah</td>
+          <td>:</td>
+          <td>SMKN 4 TASIKMALAYA</td>
+        </tr>
+        <tr>
+          <td class="fw-bold">NPSN</td>
+          <td>:</td>
+          <td>20276063</td>
+        </tr>
+        <tr>
+          <td class="fw-bold">Alamat</td>
+          <td>:</td>
+          <td>Jl Depok RT 02 RW 05, Kelurahan Sukamenak, Kecamatan Purbaratu,
+          Kota Tasikmalaya, Provinsi Jawa Barat</td>
+        </tr>
+        <tr>
+          <td class="fw-bold">Telp/Faks</td>
+          <td>:</td>
+          <td>(0265) 7528981</td>
+        </tr>
+        <tr>
+          <td class="fw-bold">Email</td>
+          <td>:</td>
+          <td>info@smkn4-tsm.sch.id</td>
+        </tr>
+        <tr>
+          <td class="fw-bold">Tahun Berdiri/Beroperasi</td>
+          <td>:</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td class="fw-bold">Nomor SK Pendirian</td>
+          <td>:</td>
+          <td>420/9/SK-BPPT/2012</td>
+        </tr>
+        <tr>
+          <td class="fw-bold">Tanggal SK Pendirian</td>
+          <td>:</td>
+          <td>06 Februari 2012</td>
+        </tr>
+        <tr>
+          <td class="fw-bold">Kepemilikan</td>
+          <td>:</td>
+          <td>Pemerintah Daerah</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
    
 <footer class="pt-5 pb-3" style="background-color:#f9fafb; border-top:1px solid #e5e7eb;">
   <div class="container">

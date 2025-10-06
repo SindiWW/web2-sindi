@@ -11,7 +11,7 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    
-    <title>Berita</title>
+    <title>Organisasi</title>
      <link rel="stylesheet" href="style.css">
      <style>
       body {
@@ -62,9 +62,6 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
         </li>
         <li class="nav-item">
           <a class="nav-link text-drak" href="galeri.php">Galeri</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link text-dark" href="#kontak">Kontak Kami</a>
         </li>
       </ul>
 

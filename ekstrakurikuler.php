@@ -11,7 +11,7 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    
-    <title>Berita</title>
+    <title>Ekstrakurikuler</title>
      <link rel="stylesheet" href="style.css">
      <style>
       body {
@@ -82,24 +82,20 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
       <?php
       // Data ekskul
       $ekskul = [
-        ["nama" => "Pramuka", "img" => "img/pramukaa.png"],
         ["nama" => "Paskibra", "img" => "img/paskibra.png"],
+        ["nama" => "Pramuka", "img" => "img/pramukaa.png"],  
         ["nama" => "PMR", "img" => "img/pmr.png"],
-        ["nama" => "IT Club", "img" => "img/it.png"],
-        ["nama" => "Sepak Bola", "img" => "img/sepakbola.png"],
+        ["nama" => "PKS", "img" => "img/pks.jpg"],
+        ["nama" => "PLH", "img" => "img/plh.png"],
         ["nama" => "Perisai Diri", "img" => "img/pd.jpg"],
-        ["nama" => "Badminton", "img" => "img/badminton.png"],
-        ["nama" => "Voli", "img" => "img/voli.jpeg"],
-        ["nama" => "Futsal", "img" => "img/futsal.png"],
-        ["nama" => "Basket", "img" => "img/basket.png"],
-        ["nama" => "Karate", "img" => "img/karate.png"],
-        ["nama" => "Silat", "img" => "img/silat.png"],
-        ["nama" => "Hadroh", "img" => "img/hadroh.png"],
-        ["nama" => "Marching Band", "img" => "img/marchingband.png"],
-        ["nama" => "Rohis", "img" => "img/rohis.png"],
-        ["nama" => "Teater", "img" => "img/teater.png"],
-        ["nama" => "Tari", "img" => "img/tari.png"],
-        ["nama" => "Musik", "img" => "img/musik.png"],
+        ["nama" => "ITCLUB", "img" => "img/it.png"],
+        ["nama" => "EnglishClub", "img" => "img/englishclub.jpg"],
+        ["nama" => "Cinematography", "img" => "img/cinematography.jpg"],
+        ["nama" => "Futsal", "img" => "img/futsal.jpg"],
+        ["nama" => "Basket", "img" => "img/basket.jpg"],
+        ["nama" => "Voly", "img" => "img/voli.jpeg"],
+        ["nama" => "SepakBola", "img" => "img/sepakbola.jpg"],
+        ["nama" => "Seni", "img" => "img/osis.jpg"],
       ];
 
       // Loop tampilkan

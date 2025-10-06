@@ -11,7 +11,7 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    
-    <title>Berita</title>
+    <title>Galeri</title>
      <link rel="stylesheet" href="style.css">
      <style>
       body {
@@ -63,9 +63,6 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
         <li class="nav-item">
           <a class="nav-link text-drak" href="galeri.php">Galeri</a>
         </li>
-         <li class="nav-item">
-          <a class="nav-link text-dark" href="#kontak">Kontak Kami</a>
-        </li>
       </ul>
 
       </div>
@@ -74,57 +71,59 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
 </nav>
 
 
-<!-- Galeri -->
-<section class="py-5" style="background-color:#f9fafb;">
-  <div class="container py-5">
-    <div class="text-center mb-4">
-      <h3 class="fw-bold">Galeri</h3>
+
+<!-- GALERI -->
+<div class="container-fluid pt-5 pb-5" style="background-color:#f9fafb;">
+  <div class="container">
+    <h2 class="fw-bold mb-4 text-center">Galeri <span style="color:#2563eb;">Sekolah</span></h2>
       <p class="text-center">Dokumentasi kegiatan di SMK Negeri 4 Tasikmalaya</p>
     </div>
 
     <div class="row g-4">
-  <!-- Foto 1 -->
-  <div class="col-md-4 col-sm-6">
-    <div class="card border-0 rounded-3 custom-blue">
-      <img src="img/galeri1.png" class="card-img-top img-fluid rounded-3" alt="Galeri 1" style="object-fit: cover; height: 250px;">
-    </div>
-  </div>
+      <!-- Foto 1 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 rounded-3 custom-blue">
+          <img src="img/galeri1.png" class="card-img-top img-fluid rounded-3" alt="Galeri 1" style="object-fit: cover; height: 250px;">
+        </div>
+      </div>
 
-  <!-- Foto 2 -->
-  <div class="col-md-4 col-sm-6">
-    <div class="card border-0 rounded-3 custom-blue">
-      <img src="img/galer2.png" class="card-img-top img-fluid rounded-3" alt="Galeri 2" style="object-fit: cover; height: 250px;">
-    </div>
-  </div>
+      <!-- Foto 2 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 rounded-3 custom-blue">
+          <img src="img/galer2.png" class="card-img-top img-fluid rounded-3" alt="Galeri 2" style="object-fit: cover; height: 250px;">
+        </div>
+      </div>
 
-  <!-- Foto 3 -->
-  <div class="col-md-4 col-sm-6">
-    <div class="card border-0 rounded-3 custom-blue">
-      <img src="img/galeri3.png" class="card-img-top img-fluid rounded-3" alt="Galeri 3" style="object-fit: cover; height: 250px;">
-    </div>
-  </div>
+      <!-- Foto 3 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 rounded-3 custom-blue">
+          <img src="img/galeri3.png" class="card-img-top img-fluid rounded-3" alt="Galeri 3" style="object-fit: cover; height: 250px;">
+        </div>
+      </div>
 
-  <!-- Foto 4 -->
-  <div class="col-md-4 col-sm-6">
-    <div class="card border-0 rounded-3 custom-blue">
-      <img src="img/galeri4.png" class="card-img-top img-fluid rounded-3" alt="Galeri 3" style="object-fit: cover; height: 250px;">
-    </div>
-  </div>
+      <!-- Foto 4 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 rounded-3 custom-blue">
+          <img src="img/galeri4.png" class="card-img-top img-fluid rounded-3" alt="Galeri 4" style="object-fit: cover; height: 250px;">
+        </div>
+      </div>
 
-  <!-- Foto 5 -->
-  <div class="col-md-4 col-sm-6">
-    <div class="card border-0 rounded-3 custom-blue">
-      <img src="img/galeri5.png" class="card-img-top img-fluid rounded-3" alt="Galeri 3" style="object-fit: cover; height: 250px;">
-    </div>
-  </div>
+      <!-- Foto 5 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 rounded-3 custom-blue">
+          <img src="img/galeri5.png" class="card-img-top img-fluid rounded-3" alt="Galeri 5" style="object-fit: cover; height: 250px;">
+        </div>
+      </div>
 
-  <!-- Foto 6 -->
-  <div class="col-md-4 col-sm-6">
-    <div class="card border-0 rounded-3 custom-blue">
-      <img src="img/galerienam.png" class="card-img-top img-fluid rounded-3" alt="Galeri 3" style="object-fit: cover; height: 250px;">
+      <!-- Foto 6 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 rounded-3 custom-blue">
+          <img src="img/galerienam.png" class="card-img-top img-fluid rounded-3" alt="Galeri 6" style="object-fit: cover; height: 250px;">
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
 <!-- kontak -->
 <?php

@@ -54,7 +54,6 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
         </li>
         <li class="nav-item"><a class="nav-link text-white" href="organisasi.php">Organisasi</a></li>
         <li class="nav-item"><a class="nav-link text-white" href="galeri.php">Galeri</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="#kontak.php">Kontak Kami</a></li>
       </ul>
     </div>
   </div>
@@ -91,7 +90,7 @@ $infoSekolah = [
     <h4 class="display-6">SMK NEGERI 4 TASIKMALAYA</h4>
     <h3 class="display-1">Sekolah Pusat Keunggulan</h3>
     <form class="search-box d-flex justify-content-center mt-4" method="get" action="">
-      <input type="text" name="q" class="form-control form-control-lg" placeholder="Apa yang ingin anda cari?" style="max-width:600px; border-radius:50px 0 0 50px; border:2px solid #93c5fd;">
+      <input type="text" name="q" class="form-control form-control-lg" placeholder="Apa yang ingin anda cari?" style="max-width:600px; border-radius:50px 0 0 50px; border:2px solid #0077ffff;">
       <button class="btn btn-primary btn-lg" type="submit" style="border-radius:0 50px 50px 0; color:white; font-weight:bold;">Cari</button>
     </form>
   </div>
@@ -300,9 +299,7 @@ $slide2 = array_slice($guru, 4);
     </div>
   </div>
 </section>
-
-
-      
+     
 <?php
 // Data Kontak & Sosial Media
 $kontak = [
@@ -324,6 +321,7 @@ $linkLainnya = [
   ["nama" => "Disdik Jabar", "url" => "#"],
 ];
 ?>
+
 
 <footer class="pt-5 pb-3" style="background-color:#f9fafb; border-top:1px solid #e5e7eb;">
   <div class="container">
