@@ -54,7 +54,7 @@ $title = "Beranda - SMKN 4 Tasikmalaya";
         </li>
         <li class="nav-item"><a class="nav-link text-white" href="organisasi.php">Organisasi</a></li>
         <li class="nav-item"><a class="nav-link text-white" href="galeri.php">Galeri</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="#kontak">Kontak Kami</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#kontak.php">Kontak Kami</a></li>
       </ul>
     </div>
   </div>

@@ -1,52 +1,77 @@
+<?php
+$title = "Beranda - SMKN 4 Tasikmalaya";
+?>
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Organisasi</title>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <title>Berita</title>
+     <link rel="stylesheet" href="style.css">
+     <style>
+      body {
+        padding-top: 65px;
+      }
+     </style>
   </head>
   <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">
-          <img src="img/LOGO.png" alt="Logo" width="50" class="me-2">
-          SMKN 4 Tasikmalaya
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Profil</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="identitas.html">Identitas Sekolah</a></li>
-                <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
-                <li><a class="dropdown-item" href="visi&misi.html">Visi & Misi</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Kesiswaan</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="jurusan.html">Jurusan</a></li>
-                <li><a class="dropdown-item" href="ekstrakurikuler.html">Ekstrakurikuler</a></li>
-                <li><a class="dropdown-item" href="prestasi.html">Prestasi</a></li>
-              </ul>
-            </li>
-            <li class="nav-item"><a class="nav-link active" href="organisasi.html">Organisasi</a></li>
-            <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
-            <li class="nav-item"><a class="nav-link" href="#kontak">Kontak Kami</a></li>
+   <!-- navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="index.php">
+      <img src="img/logo.png" alt="Logo SMKN 4 Tasikmalaya" width="40" height="40" class="me-2">
+      <span class="fw-bold">SMKN 4 Tasikmalaya</span>
+    </a>
+    
+
+    <div class="d-flex justify-content-end">
+    <a class="navbar-brand" href="index.php">Beranda</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Profil
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="identitas.php">Identitas Sekolah</a></li>
+            <li><a class="dropdown-item" href="sejarah.php">Sejarah</a></li>
+             <li><a class="dropdown-item" href="visi&misi.php">Visi&Misi</a></li>
           </ul>
-        </div>
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-drak" href="#" id="kesiswaanDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Kesiswaan
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="jurusan.php">Jurusan</a></li>
+            <li><a class="dropdown-item" href="ekstrakurikuler.php">Ekstrakurikuler</a></li>
+            <li><a class="dropdown-item" href="prestasi.php">Prestasi</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="organisasi.php">Organisasi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-drak" href="galeri.php">Galeri</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-dark" href="#kontak">Kontak Kami</a>
+        </li>
+      </ul>
+
       </div>
-    </nav>
+    </div>
+  </div>
+</nav>
 
     <!-- Konten Organisasi -->
     <section class="py-5 mt-5">
